@@ -1,0 +1,10 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ title }} | {% trans 'KCAR site admin' %}{% endblock %}
+
+{% block branding %}
+<tr><td><h1 id="site-name">{% trans 'KCAR administration' %}</h1></td></tr>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
